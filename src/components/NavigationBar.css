@@ -1,13 +1,24 @@
+section {
+    display: inline-block;
+}
+
 ul {
+    /* display: grid;
+    grid-template-columns: 3fr 1fr 1fr; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 30px;
+    justify-content: left;
+    /* margin: 30px; */
     list-style-type: none;
-    background-color: darkblue;
+    background-image: linear-gradient(to right, royalblue, darkblue) ;
     color: white;
     padding: 30px;
+    padding-right: 140px;
 }
+li {
+    padding-right: 10px; 
+}
+
 li:hover {
     color: aquamarine;
 }

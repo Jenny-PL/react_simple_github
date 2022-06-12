@@ -11,6 +11,9 @@ function App() {
   return (
     <div className="App">
       <NavigationBar></NavigationBar>
+      <SearchBar></SearchBar>
+      <LoginControls></LoginControls>
+      <HeroSection></HeroSection>
     </div>
   );
 }

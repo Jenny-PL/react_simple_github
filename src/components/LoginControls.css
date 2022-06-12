@@ -1,0 +1,17 @@
+
+.SignInChoices {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#SignUp {
+    border:solid;
+    border-color: white;
+    border-radius: 5px;
+}

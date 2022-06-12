@@ -1,0 +1,11 @@
+
+input {
+    background-color: grey;
+    color: white;
+    text-align: left;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 5px;
+    display:inline;
+    padding-left: 20px; 
+}
