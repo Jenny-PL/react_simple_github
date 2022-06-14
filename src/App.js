@@ -10,10 +10,14 @@ import NavigationBar from "./components/NavigationBar";
 function App() {
   return (
     <div className="App">
-      <NavigationBar></NavigationBar>
-      <SearchBar></SearchBar>
-      <LoginControls></LoginControls>
-      <HeroSection></HeroSection>
+      <header>
+        <NavigationBar></NavigationBar>
+        <SearchBar></SearchBar>
+        <LoginControls></LoginControls>
+      </header>
+      <main>
+        <HeroSection></HeroSection>
+      </main>
     </div>
   );
 }

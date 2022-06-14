@@ -6,7 +6,7 @@ const HeroSection = () => {
   const paragraph =
     "Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.";
   return (
-    <section>
+    <section className="heroParag">
       <h2>{heading}</h2>
       <p>{paragraph}</p>
     </section>
